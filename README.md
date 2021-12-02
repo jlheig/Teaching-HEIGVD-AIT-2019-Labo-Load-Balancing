@@ -126,7 +126,7 @@ TCP ports 1936 and 9999 which we will cover later.
 The architecture of our distributed web application is shown in the
 following diagram:
 
-![Architecture](assets/img/archiV21.png)
+![Architecture](assets/img/archiV2.png)
 
 You can now navigate to the address of the load balancer
 <http://192.168.42.42> in your favorite browser. The load balancer
@@ -183,7 +183,7 @@ Open JMeter and then open the script `tester.jmx` present in the root
 folder of the project and follow the instructions given in the
 following screenshot (Click on the image and then on RAW button to see the picture in full size. Useful to read the text):
 
-![JMeter](assets/img/jmeter1.png)
+![JMeter](assets/img/jmeter.png)
 
 The JMeter test plan is set up in the following way:
 
@@ -217,7 +217,7 @@ The JMeter test plan is set up in the following way:
     sequence of messages exchanged (1) between the browser and HAProxy
     and (2) between HAProxy and the nodes S1 and S2. Here is an example:
 
-  ![Sequence diagram for part 1](assets/img/seq-diag-11.png)
+  ![Sequence diagram for part 1](assets/img/seq-diag-1.png)
 
 4. Provide a screenshot of the summary report from JMeter.
 
@@ -317,7 +317,7 @@ When all the infra is up and running, perform the following steps:
    look. You should have something similar to the following
    screenshot.
 
-![Admin Stat view of HAProxy](assets/img/stats1.png)
+![Admin Stat view of HAProxy](assets/img/stats.png)
 
   You should be able to see the `s1` and `s2` nodes and their state.
 
